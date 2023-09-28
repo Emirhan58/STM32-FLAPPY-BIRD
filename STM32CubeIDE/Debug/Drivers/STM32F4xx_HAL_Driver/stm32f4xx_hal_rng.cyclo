@@ -1,0 +1,14 @@
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:155:19:HAL_RNG_Init	3
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:216:19:HAL_RNG_DeInit	2
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:262:13:HAL_RNG_MspInit	1
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:277:13:HAL_RNG_MspDeInit	1
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:544:19:HAL_RNG_GenerateRandomNumber	6
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:602:19:HAL_RNG_GenerateRandomNumber_IT	3
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:637:10:HAL_RNG_GetRandomNumber	2
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:656:10:HAL_RNG_GetRandomNumber_IT	2
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:697:6:HAL_RNG_IRQHandler	6
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:771:10:HAL_RNG_ReadLastRandomNumber	1
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:783:13:HAL_RNG_ReadyDataCallback	1
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:799:13:HAL_RNG_ErrorCallback	1
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:833:22:HAL_RNG_GetState	1
+C:/TouchGFXProjects/MyApplication_7/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c:843:10:HAL_RNG_GetError	1

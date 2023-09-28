@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/flappyscreen_screen/FlappyScreenPresenter.hpp:28:13:FlappyScreenPresenter::~FlappyScreenPresenter()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/flappyscreen_screen/FlappyScreenPresenter.cpp:10:6:virtual void FlappyScreenPresenter::activate()	1
+../../TouchGFX/gui/include/gui/flappyscreen_screen/FlappyScreenPresenter.hpp:28:13:virtual FlappyScreenPresenter::~FlappyScreenPresenter()	1
+../../TouchGFX/gui/include/gui/flappyscreen_screen/FlappyScreenPresenter.hpp:28:13:virtual void* FlappyScreenPresenter::_ZThn4_N21FlappyScreenPresenterD1Ev()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/flappyscreen_screen/FlappyScreenPresenter.cpp:4:1:FlappyScreenPresenter::FlappyScreenPresenter(FlappyScreenView&)	1

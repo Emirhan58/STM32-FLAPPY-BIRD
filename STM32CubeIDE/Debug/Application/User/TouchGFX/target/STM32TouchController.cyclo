@@ -1,0 +1,6 @@
+../../TouchGFX/target/STM32TouchController.hpp:36:7:STM32TouchController::~STM32TouchController()	1
+../../TouchGFX/target/STM32TouchController.hpp:36:7:virtual STM32TouchController::~STM32TouchController()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/STM32TouchController.cpp:87:9:uint8_t BSP_TS_Init(uint16_t, uint16_t)	2
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/STM32TouchController.cpp:48:6:virtual void STM32TouchController::init()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/STM32TouchController.cpp:118:6:void BSP_TS_GetState(TS_StateTypeDef*)	10
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/STM32TouchController.cpp:57:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	2

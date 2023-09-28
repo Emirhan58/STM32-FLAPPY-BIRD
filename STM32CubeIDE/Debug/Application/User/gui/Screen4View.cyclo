@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:13:6:virtual void Screen4View::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:Screen4View::~Screen4View()	1
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:virtual Screen4View::~Screen4View()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:3:1:Screen4View::Screen4View()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:8:6:virtual void Screen4View::setupScreen()	1

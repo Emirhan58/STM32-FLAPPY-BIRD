@@ -1,0 +1,6 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/flappyscreen_screen/FlappyScreenView.cpp:13:6:virtual void FlappyScreenView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/flappyscreen_screen/FlappyScreenView.hpp:11:13:FlappyScreenView::~FlappyScreenView()	1
+../../TouchGFX/gui/include/gui/flappyscreen_screen/FlappyScreenView.hpp:11:13:virtual FlappyScreenView::~FlappyScreenView()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/flappyscreen_screen/FlappyScreenView.cpp:3:1:FlappyScreenView::FlappyScreenView()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/flappyscreen_screen/FlappyScreenView.cpp:8:6:virtual void FlappyScreenView::setupScreen()	1

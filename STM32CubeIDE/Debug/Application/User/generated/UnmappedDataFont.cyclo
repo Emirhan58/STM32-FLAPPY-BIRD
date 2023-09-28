@@ -1,0 +1,16 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:200:30:virtual const touchgfx::GlyphNode* touchgfx::Font::getGlyph(touchgfx::Unicode::UnicodeChar) const	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:219:34:virtual touchgfx::Unicode::UnicodeChar touchgfx::Font::getFallbackChar() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:232:34:virtual touchgfx::Unicode::UnicodeChar touchgfx::Font::getEllipsisChar() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:331:44:virtual uint16_t touchgfx::Font::getBaseline() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:351:44:virtual uint16_t touchgfx::Font::getHeight() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:382:43:virtual uint8_t touchgfx::Font::getBitsPerPixel() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:392:43:virtual uint8_t touchgfx::Font::getByteAlignRow() const	1
+../../TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp:90:29:virtual const uint16_t* touchgfx::UnmappedDataFont::getGSUBTable() const	1
+../../TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp:100:45:virtual const touchgfx::FontContextualFormsTable* touchgfx::UnmappedDataFont::getContextualFormsTable() const	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp:24:18:virtual const touchgfx::GlyphNode* touchgfx::UnmappedDataFont::getGlyph(touchgfx::Unicode::UnicodeChar, const uint8_t*&, uint8_t&) const	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp:44:16:virtual const uint8_t* touchgfx::UnmappedDataFont::getPixelData(const touchgfx::GlyphNode*) const	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp:50:8:virtual int8_t touchgfx::UnmappedDataFont::getKerning(touchgfx::Unicode::UnicodeChar, const touchgfx::GlyphNode*) const	6
+../../TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp:19:7:touchgfx::UnmappedDataFont::~UnmappedDataFont()	1
+../../TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp:19:7:virtual touchgfx::UnmappedDataFont::~UnmappedDataFont()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp:12:1:touchgfx::UnmappedDataFont::UnmappedDataFont(const touchgfx::GlyphNode*, const uint16_t*, uint16_t, uint16_t, uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, const uint8_t* const*, const touchgfx::KerningNode*, touchgfx::Unicode::UnicodeChar, touchgfx::Unicode::UnicodeChar, const uint16_t*, const touchgfx::FontContextualFormsTable*)	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp:72:5:int touchgfx::UnmappedDataFont::lookupUnicode(uint16_t) const	14

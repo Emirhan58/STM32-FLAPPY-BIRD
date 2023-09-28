@@ -1,0 +1,5 @@
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/TouchGFXGPIO.cpp:75:6:static void touchgfx::GPIO::set(touchgfx::GPIO::GPIO_ID)	5
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/TouchGFXGPIO.cpp:105:6:static void touchgfx::GPIO::clear(touchgfx::GPIO::GPIO_ID)	5
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/TouchGFXGPIO.cpp:135:6:static void touchgfx::GPIO::toggle(touchgfx::GPIO::GPIO_ID)	5
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/TouchGFXGPIO.cpp:165:6:static bool touchgfx::GPIO::get(touchgfx::GPIO::GPIO_ID)	5
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/target/TouchGFXGPIO.cpp:58:6:static void touchgfx::GPIO::init()	4

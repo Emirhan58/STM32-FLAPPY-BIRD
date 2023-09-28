@@ -1,0 +1,12 @@
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:75:6:NMI_Handler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:88:6:HardFault_Handler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:103:6:MemManage_Handler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:118:6:BusFault_Handler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:133:6:UsageFault_Handler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:148:6:DebugMon_Handler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:168:6:EXTI0_IRQHandler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:182:6:TIM2_IRQHandler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:196:6:TIM6_DAC_IRQHandler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:210:6:HASH_RNG_IRQHandler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:224:6:LTDC_IRQHandler	1
+C:/TouchGFXProjects/MyApplication_7/Core/Src/stm32f4xx_it.c:238:6:DMA2D_IRQHandler	1

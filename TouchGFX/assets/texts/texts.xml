@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="__SingleUse_XWHI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_FZK6" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">HTML/CSS</Translation>
+      </Text>
+      <Text Id="__SingleUse_WUBU" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">C</Translation>
+      </Text>
+      <Text Id="__SingleUse_VHQ4" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">C++</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZOXT" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">TouchGFX</Translation>
+      </Text>
+      <Text Id="__SingleUse_YHEV" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Python</Translation>
+      </Text>
+      <Text Id="__SingleUse_RTNG" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">.NET</Translation>
+      </Text>
+      <Text Id="__SingleUse_W0SB" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Javascript</Translation>
+      </Text>
+      <Text Id="__SingleUse_M0P8" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">PHP</Translation>
+      </Text>
+      <Text Id="__SingleUse_OV79" Alignment="Left" TypographyId="ozel3">
+        <Translation Language="GB">Related Skills</Translation>
+      </Text>
+      <Text Id="__SingleUse_J8B5" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">github.com/Emirhan58</Translation>
+      </Text>
+      <Text Id="__SingleUse_5VIY" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">linkedin.com/in/emirhankaya/</Translation>
+      </Text>
+      <Text Id="__SingleUse_W5DL" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">+90 553-055-8258</Translation>
+      </Text>
+      <Text Id="__SingleUse_IJTT" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">emirhan.kaya_58@hotmail.com</Translation>
+      </Text>
+      <Text Id="__SingleUse_T6A0" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">www.zaptine.com</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZR1Z" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Sellix, Stripte, BTCPayserver</Translation>
+      </Text>
+      <Text Id="__SingleUse_T0NZ" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Market, cart system</Translation>
+      </Text>
+      <Text Id="__SingleUse_69JC" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Web panel</Translation>
+      </Text>
+      <Text Id="__SingleUse_ON69" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Store,product,category panel</Translation>
+      </Text>
+      <Text Id="__SingleUse_2E70" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">website that I developed&#10; as a freelancer.</Translation>
+      </Text>
+      <Text Id="__SingleUse_P9Q4" Alignment="Left" TypographyId="ss">
+        <Translation Language="GB">Zaptine, the</Translation>
+      </Text>
+      <Text Id="__SingleUse_LXI7" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Zaptine,</Translation>
+      </Text>
+      <Text Id="__SingleUse_IE6I" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Backend Developer</Translation>
+      </Text>
+      <Text Id="__SingleUse_TCU3" Alignment="Left" TypographyId="ozel3">
+        <Translation Language="GB">Contact Information</Translation>
+      </Text>
+      <Text Id="__SingleUse_LNA0" Alignment="Left" TypographyId="ozel3">
+        <Translation Language="GB">Work Experience</Translation>
+      </Text>
+      <Text Id="__SingleUse_FHLB" Alignment="Left" TypographyId="ozel2">
+        <Translation Language="GB">Computer Science</Translation>
+      </Text>
+      <Text Id="__SingleUse_DIUU" Alignment="Left" TypographyId="ozel">
+        <Translation Language="GB">Emirhan Kaya</Translation>
+      </Text>
+      <Text Id="__SingleUse_O2DM" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">My Resume</Translation>
+      </Text>
+      <Text Id="__SingleUse_5GHL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Flappy Bird</Translation>
+      </Text>
+      <Text Id="__SingleUse_E3RK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_YE2B" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Top Score: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JXFO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="__SingleUse_5NP2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_IPTN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Score: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UD29" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_KDY8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Score: &lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="!-~" />
+    <Typography Id="Large" Font="VIVALDII.TTF" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="ozel" Font="verdanab.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="ozel2" Font="verdanab.ttf" Size="13" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="ozel3" Font="verdanab.ttf" Size="9" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdanab.ttf" Size="7" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="ss" Font="verdana.ttf" Size="7" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

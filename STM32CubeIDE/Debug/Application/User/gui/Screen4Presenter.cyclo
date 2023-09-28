@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4Presenter.hpp:28:13:Screen4Presenter::~Screen4Presenter()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:10:6:virtual void Screen4Presenter::activate()	1
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4Presenter.hpp:28:13:virtual Screen4Presenter::~Screen4Presenter()	1
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4Presenter.hpp:28:13:virtual void* Screen4Presenter::_ZThn4_N16Screen4PresenterD1Ev()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:4:1:Screen4Presenter::Screen4Presenter(Screen4View&)	1

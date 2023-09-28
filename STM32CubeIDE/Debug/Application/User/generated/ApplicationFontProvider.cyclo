@@ -1,0 +1,3 @@
+../../TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp:39:7:ApplicationFontProvider::~ApplicationFontProvider()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp:8:17:virtual touchgfx::Font* ApplicationFontProvider::getFont(touchgfx::FontId)	9
+../../TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp:39:7:virtual ApplicationFontProvider::~ApplicationFontProvider()	1

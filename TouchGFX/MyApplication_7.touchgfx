@@ -1,0 +1,1447 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "FlappyScreen",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 240,
+            "Height": 320,
+            "Filename": "flappyBackground-min.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallUp1",
+            "X": 207,
+            "Width": 23,
+            "Height": 105,
+            "Filename": "flappyWallUp.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallUp4",
+            "X": 417,
+            "Width": 23,
+            "Height": 78,
+            "Filename": "flappyWallUp.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallUp3",
+            "X": 347,
+            "Width": 23,
+            "Height": 105,
+            "Filename": "flappyWallUp.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallUp2",
+            "X": 277,
+            "Width": 23,
+            "Height": 132,
+            "Filename": "flappyWallUp.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallDown1",
+            "X": 207,
+            "Y": 215,
+            "Width": 23,
+            "Height": 105,
+            "Filename": "flappyWallDown.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallDown4",
+            "X": 417,
+            "Y": 188,
+            "Width": 23,
+            "Height": 132,
+            "Filename": "flappyWallDown.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallDown3",
+            "X": 347,
+            "Y": 215,
+            "Width": 23,
+            "Height": 105,
+            "Filename": "flappyWallDown.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "wallDown2",
+            "X": 277,
+            "Y": 242,
+            "Width": 23,
+            "Height": 78,
+            "Filename": "flappyWallDown.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "scoreText",
+            "Width": 86,
+            "Height": 24,
+            "TextId": "__SingleUse_KDY8",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_UD29",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "bird",
+            "X": 30,
+            "Y": 136,
+            "Width": 46,
+            "Height": 48,
+            "Filename": "bird-removebg-preview.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 10,
+              "Y": 10,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "ActionComponent": "bird"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "backgroundGameOver",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 82,
+              "Green": 190,
+              "Blue": 209
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "endScoreText",
+            "X": 77,
+            "Y": 168,
+            "Width": 86,
+            "Height": 24,
+            "TextId": "__SingleUse_IPTN",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_5NP2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "topScoreText",
+            "X": 57,
+            "Y": 207,
+            "Width": 127,
+            "Height": 24,
+            "TextId": "__SingleUse_YE2B",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_E3RK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 35,
+            "Y": 80,
+            "Width": 170,
+            "Height": 80,
+            "Filename": "flappyGameOver.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionSetWildcard",
+              "TextId": "__SingleUse_JXFO",
+              "WildcardLocation": "Wildcard1",
+              "ActionComponent": "endScoreText"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box3",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 56,
+              "Green": 54,
+              "Blue": 54
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "selectedProgramBox",
+            "X": 17,
+            "Y": 19,
+            "Width": 79,
+            "Height": 75,
+            "Color": {
+              "Red": 105,
+              "Green": 106,
+              "Blue": 112
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "flappyBirdIcon",
+            "X": 32,
+            "Y": 28,
+            "Width": 48,
+            "Height": 41,
+            "Filename": "bird-removebg-preview.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 28,
+            "Y": 74,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_5GHL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 139,
+            "Y": 74,
+            "Width": 58,
+            "Height": 12,
+            "TextId": "__SingleUse_O2DM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "cvIcon",
+            "X": 144,
+            "Y": 28,
+            "Width": 48,
+            "Height": 41,
+            "Filename": "flappyBackground-min.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "FlappyScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen4"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen4",
+        "CanvasBufferSize": 3600,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_1_1",
+            "X": 128,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "TextId": "__SingleUse_WUBU",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_2_2",
+            "X": 129,
+            "Y": 269,
+            "Width": 17,
+            "Height": 9,
+            "TextId": "__SingleUse_VHQ4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_4",
+            "X": 184,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_2_1",
+            "X": 176,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_2_1",
+            "X": 184,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_2_1",
+            "X": 193,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_2_1",
+            "X": 201,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_3_2",
+            "X": 176,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_3_2",
+            "X": 184,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_3_2",
+            "X": 193,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_3_2",
+            "X": 201,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_1_1_2",
+            "X": 209,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_1_2",
+            "X": 209,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_4",
+            "X": 201,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_4",
+            "X": 193,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1_1",
+            "X": 209,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            },
+            "BorderSize": 2
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_4",
+            "X": 176,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_3_1_1",
+            "X": 201,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_1_1_1_1",
+            "X": 209,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_3_1_1",
+            "X": 193,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_3_1_1",
+            "X": 184,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_3_1_1",
+            "X": 176,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_2_1_1",
+            "X": 129,
+            "Y": 282,
+            "Width": 34,
+            "Height": 9,
+            "TextId": "__SingleUse_ZOXT",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_2_1",
+            "X": 28,
+            "Y": 282,
+            "Width": 23,
+            "Height": 9,
+            "TextId": "__SingleUse_YHEV",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_3_1",
+            "X": 65,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_3_1",
+            "X": 73,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_3_1",
+            "X": 82,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_1_1_1",
+            "X": 98,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_3_1",
+            "X": 90,
+            "Y": 282,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle2_2",
+            "X": -10,
+            "Y": 112,
+            "Width": 61,
+            "Height": 63,
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 2.5,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_2",
+            "X": 35,
+            "Y": 148,
+            "Width": 35,
+            "Height": 9,
+            "TextId": "__SingleUse_69JC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 22,
+            "Y": 19,
+            "Width": 154,
+            "Height": 24,
+            "TextId": "__SingleUse_DIUU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 22,
+            "Y": 43,
+            "Width": 131,
+            "Height": 15,
+            "TextId": "__SingleUse_FHLB",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": -78,
+            "Y": 86,
+            "Width": 100,
+            "Height": 50,
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 95.0,
+            "EndY": 5.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "X": -78,
+            "Y": 223,
+            "Width": 100,
+            "Height": 50,
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 95.0,
+            "EndY": 5.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1",
+            "X": 9,
+            "Y": 81,
+            "Width": 26,
+            "Height": 22,
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 4.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle1_1",
+            "X": 9,
+            "Y": 218,
+            "Width": 26,
+            "Height": 22,
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 4.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 28,
+            "Y": 84,
+            "Width": 83,
+            "Height": 11,
+            "TextId": "__SingleUse_LNA0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_3",
+            "X": 28,
+            "Y": 222,
+            "Width": 67,
+            "Height": 11,
+            "TextId": "__SingleUse_OV79",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2",
+            "X": 28,
+            "Y": 103,
+            "Width": 77,
+            "Height": 8,
+            "TextId": "__SingleUse_IE6I",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1",
+            "X": 28,
+            "Y": 244,
+            "Width": 13,
+            "Height": 9,
+            "TextId": "__SingleUse_M0P8",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_3",
+            "X": 128,
+            "Y": 244,
+            "Width": 37,
+            "Height": 9,
+            "TextId": "__SingleUse_FZK6",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_1",
+            "X": 128,
+            "Y": 84,
+            "Width": 101,
+            "Height": 11,
+            "TextId": "__SingleUse_TCU3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Shape",
+            "Name": "shape1",
+            "X": 13,
+            "Y": 104,
+            "Width": 15,
+            "Height": 15,
+            "Color": {
+              "Red": 94,
+              "Green": 46,
+              "Blue": 214
+            },
+            "Points": [
+              {
+                "X": 40.0
+              },
+              {
+                "X": 76.8,
+                "Y": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 80.0
+              },
+              {
+                "Y": 40.0
+              }
+            ],
+            "XScale": 0.1,
+            "YScale": 0.1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 28,
+            "Y": 112,
+            "Width": 33,
+            "Height": 8,
+            "TextId": "__SingleUse_LXI7",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 61,
+            "Y": 112,
+            "Width": 42,
+            "Height": 9,
+            "TextId": "__SingleUse_P9Q4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1",
+            "X": 28,
+            "Y": 120,
+            "Width": 88,
+            "Height": 18,
+            "TextId": "__SingleUse_2E70",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle2",
+            "X": -10,
+            "Y": 112,
+            "Width": 61,
+            "Height": 63,
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 2.5,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle2_1",
+            "X": -10,
+            "Y": 125,
+            "Width": 61,
+            "Height": 63,
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 2.5,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1",
+            "X": 35,
+            "Y": 161,
+            "Width": 101,
+            "Height": 9,
+            "TextId": "__SingleUse_ON69",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_2",
+            "X": 128,
+            "Y": 103,
+            "Width": 110,
+            "Height": 9,
+            "TextId": "__SingleUse_IJTT",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_2_1",
+            "X": 128,
+            "Y": 115,
+            "Width": 62,
+            "Height": 9,
+            "TextId": "__SingleUse_W5DL",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_2_1_1",
+            "X": 128,
+            "Y": 125,
+            "Width": 103,
+            "Height": 9,
+            "TextId": "__SingleUse_5VIY",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_2_1_1_1",
+            "X": 128,
+            "Y": 136,
+            "Width": 78,
+            "Height": 9,
+            "TextId": "__SingleUse_J8B5",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_1",
+            "X": 35,
+            "Y": 172,
+            "Width": 71,
+            "Height": 9,
+            "TextId": "__SingleUse_T0NZ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle2_1_1",
+            "X": -10,
+            "Y": 136,
+            "Width": 61,
+            "Height": 63,
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 2.5,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle2_1_1_1",
+            "X": -10,
+            "Y": 148,
+            "Width": 61,
+            "Height": 63,
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 2.5,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_1_1",
+            "X": 35,
+            "Y": 184,
+            "Width": 101,
+            "Height": 9,
+            "TextId": "__SingleUse_ZR1Z",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5_1_1_1_1_1_1",
+            "X": 35,
+            "Y": 196,
+            "Width": 64,
+            "Height": 9,
+            "TextId": "__SingleUse_T6A0",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "circle2_1_1_1_1",
+            "X": -10,
+            "Y": 160,
+            "Width": 61,
+            "Height": 63,
+            "CenterX": 40.0,
+            "CenterY": 40.0,
+            "Radius": 2.5,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "X": 65,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1",
+            "X": 73,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1",
+            "X": 82,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1",
+            "X": 90,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_1",
+            "X": 98,
+            "Y": 244,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_1_1",
+            "X": 98,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_3",
+            "X": 90,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_3",
+            "X": 82,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_3",
+            "X": 73,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_3",
+            "X": 65,
+            "Y": 269,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_2",
+            "X": 28,
+            "Y": 269,
+            "Width": 16,
+            "Height": 9,
+            "TextId": "__SingleUse_RTNG",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_1_2",
+            "X": 90,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_1_2",
+            "X": 82,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1_2",
+            "X": 73,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_2",
+            "X": 65,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2_1_1",
+            "X": 27,
+            "Y": 256,
+            "Width": 35,
+            "Height": 9,
+            "TextId": "__SingleUse_W0SB",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 98,
+            "Y": 256,
+            "Width": 5,
+            "Height": 9,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 94,
+              "Green": 23,
+              "Blue": 235
+            },
+            "BorderSize": 2
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication_7",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen3",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [
+      {
+        "Name": "HW_Push"
+      },
+      {
+        "Key": 1,
+        "Name": "NONE"
+      }
+    ],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.22.1",
+  "CreatedBy": "4.22.1"
+}

@@ -1,0 +1,48 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:61:34:virtual touchgfx::HAL::RenderingMethod touchgfx::AbstractPainter::getRenderingMethod() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:78:18:virtual bool touchgfx::AbstractPainter::setup(const touchgfx::Rect&) const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:90:18:virtual void touchgfx::AbstractPainter::tearDown() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:66:18:virtual void touchgfx::CanvasWidget::setAlpha(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:72:21:virtual uint8_t touchgfx::CanvasWidget::getAlpha() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:134:18:virtual touchgfx::Rect touchgfx::CanvasWidget::getSolidRect() const	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Screen4Presenter>::~View()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/gui_generated/src/screen4_screen/Screen4ViewBase.cpp:447:6:virtual void Screen4ViewBase::setupScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:35:7:touchgfx::Shape<4>::~Shape()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:38:17:int touchgfx::Shape<POINTS>::getNumPoints() const [with short unsigned int POINTS = 4]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:43:18:void touchgfx::Shape<POINTS>::setCorner(int, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) [with short unsigned int POINTS = 4]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:51:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCornerX(int) const [with short unsigned int POINTS = 4]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:60:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCornerY(int) const [with short unsigned int POINTS = 4]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:70:18:void touchgfx::Shape<POINTS>::setCache(int, touchgfx::CWRUtil::Q5, touchgfx::CWRUtil::Q5) [with short unsigned int POINTS = 4]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:78:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCacheX(int) const [with short unsigned int POINTS = 4]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:87:25:touchgfx::CWRUtil::Q5 touchgfx::Shape<POINTS>::getCacheY(int) const [with short unsigned int POINTS = 4]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Shape.hpp:35:7:virtual touchgfx::Shape<4>::~Shape()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Screen4Presenter>::~View()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/gui_generated/src/screen4_screen/Screen4ViewBase.cpp:442:1:Screen4ViewBase::~Screen4ViewBase()	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/gui_generated/src/screen4_screen/Screen4ViewBase.cpp:442:1:virtual Screen4ViewBase::~Screen4ViewBase()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:33:5:touchgfx::Box::Box()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:43:5:touchgfx::TextArea::TextArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp:42:5:touchgfx::PainterRGB565::PainterRGB565(touchgfx::colortype)	1
+C:/TouchGFXProjects/MyApplication_7/TouchGFX/generated/gui_generated/src/screen4_screen/Screen4ViewBase.cpp:9:1:Screen4ViewBase::Screen4ViewBase()	7
