@@ -21,7 +21,11 @@
   </p>
 </p>
 
+<p align="center">
+  
  ![Contributors](https://img.shields.io/github/contributors/Emirhan58/STM32-FLAPPY-BIRD?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/Emirhan58/STM32-FLAPPY-BIRD?style=social) ![Issues](https://img.shields.io/github/issues/Emirhan58/STM32-FLAPPY-BIRD) 
+
+</p>
 
 ## Table Of Contents
 
