@@ -99,7 +99,7 @@ See the [open issues](https://github.com/Emirhan58/STM32-FLAPPY-BIRD/issues) for
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Authors
+## Author
 
 * [**Emirhan Kaya**](https://github.com/Emirhan58/) - *Computer Science Student*
 
