@@ -105,4 +105,4 @@ See the [open issues](https://github.com/Emirhan58/STM32-FLAPPY-BIRD/issues) for
 
 ## Acknowledgements
 
-* [Emre Harbutoğlu](https://github.com/emre-h/)
+* [Emre Harbutoğlu](https://github.com/emre-h/) - *My Internship Supervisor*
