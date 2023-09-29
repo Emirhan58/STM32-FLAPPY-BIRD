@@ -20,6 +20,7 @@
     <a href="https://github.com/Emirhan58/STM32-FLAPPY-BIRD/issues">Request Feature</a>
   </p>
 </p>
+
  ![Contributors](https://img.shields.io/github/contributors/Emirhan58/STM32-FLAPPY-BIRD?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/Emirhan58/STM32-FLAPPY-BIRD?style=social) ![Issues](https://img.shields.io/github/issues/Emirhan58/STM32-FLAPPY-BIRD) 
 
 ## Table Of Contents
